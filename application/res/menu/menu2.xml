@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mipreport" android:title="Malicious IP  Report" android:orderInCategory="100"></item>
+    <item android:id="@+id/mpreport" android:title="Malicious Pattern Report" android:orderInCategory="100"></item>
+    
+
+</menu>

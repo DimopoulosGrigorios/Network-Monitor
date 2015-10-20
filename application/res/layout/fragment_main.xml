@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp"
+    tools:context="com.example.swipe.MainActivity$PlaceholderFragment" >
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="90dp"
+            android:paddingTop="0dp"
+            android:text="Malicious IP."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/iptext"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:hint="add your malicious ip here" />
+
+        <Button
+            android:id="@+id/ipaddbutton"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/apptheme_btn_default_focused_holo_light"
+            android:text="Add Malicious IP" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="80dp"
+            android:paddingTop="10dp"
+            android:text="Malicious Pattern."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/patterntext"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:hint="add your malicious pattern here" />
+
+        <Button
+            android:id="@+id/paternaddbutton"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/apptheme_btn_default_focused_holo_light"
+            android:text="Add Malicious Pattern" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:text="Click the buttons below to show Adder&apos;s malicious IPs and patterns" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp" >
+
+            <Button
+                android:id="@+id/ipButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/apptheme_btn_default_focused_holo_light"
+                android:minHeight="40dip"
+                android:minWidth="40dip"
+                android:paddingRight="10dp"
+                android:text="IPs" />
+
+            <Button
+                android:id="@+id/patButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/apptheme_btn_default_focused_holo_light"
+                android:minHeight="40dip"
+                android:minWidth="40dip"
+                android:paddingLeft="10dp"
+                android:text="Patterns" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/malList"
+            android:layout_width="match_parent"
+            android:layout_height="159dp" >
+
+        </ListView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Network Monitor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grigoris2">MainActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_register2">Register2Activity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main2">TabActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_malicious_fragment">MaliciousFragment</string>
+    <string name="Interfaces">Interfaces</string>
+    <string name="Uuids">Uuids</string>
+    <string name="enable_filtering">Filtering</string>
+    <string name="malicious">Malicious Report</string>
+    <string name="remove_pc">Remove Terminal</string>
+    <string name="add_mal">Add Malicious</string>
+
+</resources>
